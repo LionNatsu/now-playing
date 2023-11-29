@@ -2,7 +2,6 @@
 #include <thread>
 #include <vector>
 #include <map>
-#include <codecvt>
 #include <fstream>
 
 #define SPDLOG_WCHAR_TO_UTF8_SUPPORT
