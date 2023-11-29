@@ -36,7 +36,6 @@ jobs:
 
     - uses: actions/upload-artifact@v3
       with:
-        name: Upload
-        path: ${{github.workspace}}/installed
+        name: windows-x64-artifacts
+        path: ${{github.workspace}}/installed/bin
         if-no-files-found: error
-
