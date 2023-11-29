@@ -11,3 +11,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # ソースをこのプロジェクトの実行可能ファイルに追加します。
 add_executable (now-playing "now-playing.cpp")
 target_include_directories(now-playing PRIVATE third_party/include)
+
+install(TARGETS now-playing)
